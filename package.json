@@ -1,0 +1,41 @@
+{
+  "name": "discord_permissions_manager",
+  "version": "1.1.6",
+  "description": "A discord command permissions manager",
+  "main": "index.js",
+  "exports": {
+    ".": {
+      "require": "./dist/cjs/index.js",
+      "import": "./dist/esm/index.js",
+      "types": "./dist/esm/index.d.ts"
+    }
+  },
+  "scripts": {
+    "build": "tsc --project tsconfig.json && tsc --project tsconfig.cjs.json",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "discord",
+    "commands",
+    "permissions",
+    "discord-api-types"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GoldenDev4825/V2ComponentBuilder.git"
+  },
+  "author": "Golden Development",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/GoldenDev4825/V2ComponentBuilder/issues"
+  },
+  "homepage": "https://github.com/GoldenDev4825/V2ComponentBuilder#readme",
+  "dependencies": {
+    "discord-api-types": "^0.38.1",
+    "node-fetch": "^3.3.2"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.14",
+    "typescript": "^5.8.3"
+  }
+}
