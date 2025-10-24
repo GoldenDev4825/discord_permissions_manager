@@ -22,14 +22,14 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/GoldenDev4825/V2ComponentBuilder.git"
+    "url": "git+https://github.com/GoldenDev4825/discord_permissions_manager.git"
   },
   "author": "Golden Development",
   "license": "SEE LICENSE IN LICENSE",
   "bugs": {
-    "url": "https://github.com/GoldenDev4825/V2ComponentBuilder/issues"
+    "url": "https://github.com/GoldenDev4825/discord_permissions_manager/issues"
   },
-  "homepage": "https://github.com/GoldenDev4825/V2ComponentBuilder#readme",
+  "homepage": "https://github.com/GoldenDev4825/discord_permissions_manager#readme",
   "dependencies": {
     "discord-api-types": "^0.38.1",
     "node-fetch": "^3.3.2"
